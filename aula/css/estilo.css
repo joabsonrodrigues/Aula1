@@ -1,0 +1,61 @@
+header,section,footer{
+
+border:1px solid #000;
+width: 70%;
+margin: 0 auto;
+
+text-align: center;
+
+}
+
+section>h2{
+
+    text-align: left;
+
+}
+
+section img{
+
+	width: 1000px;
+	height: 1000px;
+}
+
+.social{
+
+	display: inline-block;
+
+	width:  62px;
+	height: 58px;
+    background-image: url("../img/csssprite.png");
+    background-position-y:-59px;
+
+    transition: all 1s; 
+
+}
+
+
+.social:hover{
+
+
+	background-position-y:0; 
+}
+
+#twitter{
+
+
+    background-position-x :-60px;
+
+
+}
+
+#instagram{
+
+background-position-x: -180px;
+
+}
+
+#linkedin{
+
+background-position-x: -240px;
+
+}
