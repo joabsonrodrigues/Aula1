@@ -1,0 +1,113 @@
+header,section,footer{
+
+border:1px solid #000;
+width: 70%;
+margin: 0 auto;
+
+text-align: center;
+
+}
+
+section>h2{
+
+    text-align: left;
+
+}
+
+section img{
+
+	width: 500px;
+	height: 500px;
+}
+
+header nav{
+	background-color: #000;
+}
+
+header nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+header nav ul li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+header nav ul li:firts-of-type{
+	margin-left: 0;
+}
+ 
+header nav ul li a{
+	display: inline-block;
+	padding: 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: verdana;
+}
+
+header nav ul li a:hover{
+	text-decoration: underline;
+	background-color: #333;
+}
+
+.social{
+
+	display: inline-block;
+	width:  63px;
+	height: 58px;
+    background-image: url("../img/csssprite.png");
+    background-position-y:-59px;
+    transition: all 1s; 
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+footer ul{
+	list-style: none;
+	padding: 0;
+}
+
+footer ul li{
+	width: 100px;
+	display: inline-block;
+}
+
+footer ul li a{
+	text-decoration: none;
+	font-family: verdana;
+	color: #999;
+}
+
+footer ul li a:hover{
+	color: #333;
+	font-weight: bold;
+}
+
+a:hover .social{
+
+
+	background-position-y:0; 
+}
+
+#twitter{
+
+
+    background-position-x :-60px;
+
+
+}
+
+#instagram{
+
+background-position-x: -180px;
+
+}
+
+#linkedin{
+
+background-position-x: -240px;
+
+}
